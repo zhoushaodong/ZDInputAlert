@@ -13,6 +13,13 @@
 		04150D7D1EF909CD0035B425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04150D7B1EF909CD0035B425 /* Main.storyboard */; };
 		04150D7F1EF909CD0035B425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04150D7E1EF909CD0035B425 /* Assets.xcassets */; };
 		04150D821EF909CD0035B425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04150D801EF909CD0035B425 /* LaunchScreen.storyboard */; };
+		04150D931EF90A270035B425 /* bluegogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 04150D8A1EF90A270035B425 /* bluegogo.png */; };
+		04150D941EF90A270035B425 /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = 04150D8B1EF90A270035B425 /* close.png */; };
+		04150D951EF90A270035B425 /* common_icon_set_password_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 04150D8C1EF90A270035B425 /* common_icon_set_password_normal.png */; };
+		04150D961EF90A270035B425 /* common_icon_set_password_press.png in Resources */ = {isa = PBXBuildFile; fileRef = 04150D8D1EF90A270035B425 /* common_icon_set_password_press.png */; };
+		04150D971EF90A270035B425 /* ZDInputAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 04150D8F1EF90A270035B425 /* ZDInputAlert.m */; };
+		04150D981EF90A270035B425 /* ZDInputAlert.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04150D901EF90A270035B425 /* ZDInputAlert.xib */; };
+		04150D991EF90A270035B425 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04150D921EF90A270035B425 /* UITextView+Placeholder.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,15 @@
 		04150D7E1EF909CD0035B425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04150D811EF909CD0035B425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04150D831EF909CD0035B425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04150D8A1EF90A270035B425 /* bluegogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bluegogo.png; sourceTree = "<group>"; };
+		04150D8B1EF90A270035B425 /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		04150D8C1EF90A270035B425 /* common_icon_set_password_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_icon_set_password_normal.png; sourceTree = "<group>"; };
+		04150D8D1EF90A270035B425 /* common_icon_set_password_press.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = common_icon_set_password_press.png; sourceTree = "<group>"; };
+		04150D8E1EF90A270035B425 /* ZDInputAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZDInputAlert.h; sourceTree = "<group>"; };
+		04150D8F1EF90A270035B425 /* ZDInputAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZDInputAlert.m; sourceTree = "<group>"; };
+		04150D901EF90A270035B425 /* ZDInputAlert.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZDInputAlert.xib; sourceTree = "<group>"; };
+		04150D911EF90A270035B425 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		04150D921EF90A270035B425 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 		04150D711EF909CD0035B425 /* ZDInputAlertView */ = {
 			isa = PBXGroup;
 			children = (
+				04150D891EF90A0C0035B425 /* ZDInputAlert */,
 				04150D751EF909CD0035B425 /* AppDelegate.h */,
 				04150D761EF909CD0035B425 /* AppDelegate.m */,
 				04150D781EF909CD0035B425 /* ViewController.h */,
@@ -77,6 +94,22 @@
 				04150D731EF909CD0035B425 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04150D891EF90A0C0035B425 /* ZDInputAlert */ = {
+			isa = PBXGroup;
+			children = (
+				04150D8A1EF90A270035B425 /* bluegogo.png */,
+				04150D8B1EF90A270035B425 /* close.png */,
+				04150D8C1EF90A270035B425 /* common_icon_set_password_normal.png */,
+				04150D8D1EF90A270035B425 /* common_icon_set_password_press.png */,
+				04150D8E1EF90A270035B425 /* ZDInputAlert.h */,
+				04150D8F1EF90A270035B425 /* ZDInputAlert.m */,
+				04150D901EF90A270035B425 /* ZDInputAlert.xib */,
+				04150D911EF90A270035B425 /* UITextView+Placeholder.h */,
+				04150D921EF90A270035B425 /* UITextView+Placeholder.m */,
+			);
+			name = ZDInputAlert;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +170,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04150D951EF90A270035B425 /* common_icon_set_password_normal.png in Resources */,
 				04150D821EF909CD0035B425 /* LaunchScreen.storyboard in Resources */,
 				04150D7F1EF909CD0035B425 /* Assets.xcassets in Resources */,
+				04150D961EF90A270035B425 /* common_icon_set_password_press.png in Resources */,
 				04150D7D1EF909CD0035B425 /* Main.storyboard in Resources */,
+				04150D941EF90A270035B425 /* close.png in Resources */,
+				04150D931EF90A270035B425 /* bluegogo.png in Resources */,
+				04150D981EF90A270035B425 /* ZDInputAlert.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +191,8 @@
 				04150D7A1EF909CD0035B425 /* ViewController.m in Sources */,
 				04150D771EF909CD0035B425 /* AppDelegate.m in Sources */,
 				04150D741EF909CD0035B425 /* main.m in Sources */,
+				04150D991EF90A270035B425 /* UITextView+Placeholder.m in Sources */,
+				04150D971EF90A270035B425 /* ZDInputAlert.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +351,7 @@
 				04150D881EF909CD0035B425 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
